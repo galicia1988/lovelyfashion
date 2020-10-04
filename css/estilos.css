@@ -221,17 +221,30 @@ a{
     .sub-menu{
         font-size: 20px;
     }
+    .contenido{
+        width: 100%;
+    }
+    .articulo{
+        height: 35%;
+    }
 }
 @media only screen and (max-width: 700px){
     .contenido-heder .titulo-heder img{
         width: 100%;
-        height: 60%;
+        height: 50%;
     }
     .nav-menu{
         padding: 0 5%;
     }
     .sub-menu{
         font-size: 15px;
+    }
+    .contenido{
+        width: 100%;
+        height: 800px;
+    }
+    .articulo{
+        height: 30%;
     }
   
 }
@@ -251,6 +264,21 @@ a{
         font-size: 12px;
     }
     .nav-menu li ul li a{
+        font-size: 12px;
+    }
+    .contenido{
+        height: 750px;
+    }
+    .articulo{
+        height: 27%;
+    }
+    .articulo-parrafo h2{
+        font-size: 30px;
+    }
+    .articulo-parrafo h3{
+        font-size: 20px;
+    }
+    .articulo-parrafo h6{
         font-size: 12px;
     }
     .redes-pie1{
@@ -280,6 +308,18 @@ a{
         .nav-menu li ul li a{
             font-size: 10px;
         }
+        .articulo{
+            height: 25%;
+        }
+        .articulo-parrafo h2{
+            font-size: 25px;
+        }
+        .articulo-parrafo h3{
+            font-size: 15px;
+        }
+        .articulo-parrafo h6{
+            font-size: 10px;
+        }
      
     }
     @media only screen and (max-width: 300px){
@@ -293,6 +333,18 @@ a{
             font-size: 8px;
         }
         .nav-menu li ul li a{
+            font-size: 8px;
+        }
+        .articulo{
+            height: 20%;
+        }
+        .articulo-parrafo h2{
+            font-size: 16px;
+        }
+        .articulo-parrafo h3{
+            font-size: 12px;
+        }
+        .articulo-parrafo h6{
             font-size: 8px;
         }
         
