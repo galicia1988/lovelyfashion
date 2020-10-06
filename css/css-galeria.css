@@ -74,30 +74,10 @@
     display: flex;
     padding-top: 10px;
 }
-.categorias{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 15%;
-    height: 50vh;
-}
-.categorias .category-items{
-    display: flex;
-    width: 85%;
-    height: 10%;
-    padding-top: 5%;
-    justify-content: center;
-    background: rgb(61, 190, 190);
-    text-decoration: none;
-    color: rgb(1, 1, 14);
-    border-radius: 10px;
-}
-.categorias .ct_item-active{
-    background: rgb(122, 25, 233);
-}
 /*-----------productos---------------------------------------------------*/
 .productos-grapes{
-    width: 80%;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
