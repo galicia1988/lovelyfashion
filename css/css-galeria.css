@@ -45,6 +45,8 @@
 .menu-pruductos{
     width: 100%;
     height: 7vh;
+    position: sticky;
+    top: 1vh;
 }
 .nav-pcoduc{
     width: 100%;
