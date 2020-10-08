@@ -179,6 +179,10 @@ a{
     display: block;
     border: solid 2px;
 }
+.articulo-dos img{
+    width: 100%;
+    height: 100%;
+}
 .pie{
     width: 100%;
     height: 400px;
