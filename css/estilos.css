@@ -177,35 +177,7 @@ a{
     height: 50%;
     margin: 0 auto;
     display: block;
-}
-.banners-animado{
-    width: 100%;
-    height: 60%;
-    border: solid 3px;
-}
-.cajas-productos{
-    width: 100%;
-    height: 40%;
-    display: flex;
-    justify-content: space-between;
-}
-.cajas-p{
-    width: 30%;
-    height: 100%;
-    display: block;
-}
-.cajas-p a{
-    width: 100%;
-    height: 100%;
-    color: black;
-    display: flex;
-    position: relative;
-}
-.cajas-p h5{
-    width: 100%;
-    position: absolute;
-    bottom: 2px;
-    text-align: center;
+    border: solid 2px;
 }
 .pie{
     width: 100%;
