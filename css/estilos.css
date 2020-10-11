@@ -66,6 +66,24 @@ a{
     border-radius: 15px;
     font-size: 20px;
 }
+.nosotros02{
+    width: 50vh;
+    height: 60vh;
+    border:solid 3px;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    display: none;
+}
+.contactanos02{
+    width: 50vh;
+    height: 60vh;
+    border:solid 3px;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    display: none;
+}
 .sub-menu:hover{
     background-image: url(../imagen/botones/btnnav.png);
     background-position: center;
@@ -156,9 +174,15 @@ a{
     width: 25vh;
     height: 8%;
     margin: 10px auto;
+    border-radius: 15px;
     border: solid rgb(131, 25, 6);
     box-shadow: 10px 10px rgb(131, 25, 6);
     background: rgb(70, 218, 238);
+}
+.envios:hover{
+    background: rgb(41, 131, 143);
+    box-shadow: 10px 10px rgb(236, 89, 63);
+    border: solid 4px rgb(131, 25, 6);
 }
 .envios a{
     width: 100%;
@@ -177,7 +201,6 @@ a{
     height: 50%;
     margin: 0 auto;
     display: block;
-    border: solid 2px;
 }
 .articulo-dos img{
     width: 100%;

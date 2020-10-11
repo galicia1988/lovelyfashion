@@ -1,0 +1,1 @@
+ScrollReveal().reveal('.produc-items',{delay: 1500 });
