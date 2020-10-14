@@ -1,12 +1,40 @@
-document.querySelector('.nosotros02').addEventListener('click',() =>{
-    console.log('click!!!!')
-});
 
 ScrollReveal().reveal('.envios',{delay: 1000 });
 ScrollReveal().reveal('.whatsapp',{delay: 1950 });
 
-const menu = document.querySelector('sub-menu');
+function Mostrar(){
+  document.getElementById("nosotros02").style.display ="block";
+}
+function Ocultar(){
+  document.getElementById("nosotros02").style.display ="none";
+}
 
-menu.addEventListener('click',function(){
-  alert('click');
-}); 
+function mostrar_ocultar(){
+  var nosotros02 = document.getElementById("nosotros02");
+
+  if(nosotros02.style.display == "none"){
+    Mostrar();
+  }
+  else{
+    Ocultar();
+  }
+}
+
+
+function Mostrar1(){
+  document.getElementById("contactanos02").style.display ="block"
+}
+function Ocultar1(){
+  document.getElementById("contactanos02").style.display ="none"
+}
+
+function mostrar1_ocultar1(){
+  var contactanos02 = document.getElementById("contactanos02");
+
+  if(contactanos02.style.display =="none"){
+    Mostrar1();
+  }
+  else{
+    Ocultar1();
+  }
+}
