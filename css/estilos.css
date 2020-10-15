@@ -66,7 +66,7 @@ a{
     font-size: 20px;
 }
 .nosotros02{
-    width: 50vh;
+    width: 200%;
     height: 60vh;
     background: rgb(210, 180, 238);
     position: absolute;
@@ -84,7 +84,7 @@ a{
     cursor: pointer;
 }
 .contactanos02{
-    width: 50vh;
+    width: 200%;
     height: 60vh;
     background: rgb(210, 180, 238);
     position: absolute;
@@ -98,6 +98,7 @@ a{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: all 0.5s;
 }
 .nav-menu li{
     width: 20%;
@@ -214,6 +215,37 @@ a{
     width: 100%;
     height: 100%;
 }
+.animadobanners{
+    opacity: 0;
+    transition: all 0.9s;
+}
+.mostrarArriba{
+    animation: mostrarIzquierda 2s;
+}
+@keyframes mostrarIzquierda{
+    0%{
+        transform: translateX(400px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.animadoDerecha{
+    opacity: 0;
+    transition: all 0.9s;
+}
+.mostrarDerecha{
+    animation: mostrarDerecha 2s;
+}
+@keyframes mostrarDerecha{
+    0%{
+        transform: translateX(-400px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
 .pie{
     width: 100%;
     height: 400px;
@@ -270,6 +302,9 @@ a{
     .articulo{
         height: 35%;
     }
+    .articulo-dos{
+        width: 85%;
+    }
 }
 @media only screen and (max-width: 700px){
     .contenido-heder .titulo-heder img{
@@ -290,7 +325,7 @@ a{
         height: 30%;
     }
     .articulo-dos{
-        width: 70%;
+        width: 86%;
         height: 54.5%;
     }
   
@@ -329,8 +364,14 @@ a{
         font-size: 12px;
     }
     .articulo-dos{
-        width: 80%;
+        width: 90%;
         height: 58.5%;
+        display: flex;
+        align-items: center;
+    }
+    .articulo-dos img{
+        width: 100%;
+        height: 75%;
     }
     .redes-pie1{
         height: 8%;
@@ -372,7 +413,7 @@ a{
             font-size: 10px;
         }
         .articulo-dos{
-            width: 85%;
+            width: 95%;
             height: 61%;
         }
      
@@ -403,10 +444,9 @@ a{
             font-size: 8px;
         }
         .articulo-dos{
-            width: 90%;
+            width: 98%;
             height: 66.5%;
         }
-        
     }
 
 }
