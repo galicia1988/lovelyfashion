@@ -13,18 +13,67 @@
 }
 .titulo{
     width: 100%;
-    height: 15%;
-    border: solid 3px;
+    height: 20%;
+    background: rgb(30, 185, 206);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.titulo img{
+    width: 50%;
+    height: 100%;
+}
+.inicio{
+    width: 10%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.inicio a{
+    width: 100%;
+    height: 100%;
+    background: rgb(23, 148, 165);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
 }
 .cuerpo{
     width: 100%;
-    height: 65%;
-    border: solid 3px;
+    height: 60%;
 }
 .pie{
     width: 100%;
     height: 20%;
-    border: solid 3px;
     background: rgb(30, 185, 206);
+}
 
+@media only screen and (max-width: 600px){
+    .inicio{
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 300px){
+    .inicio{
+        width: 23%;
+    }
+    .inicio a{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 250px){
+    .inicio{
+        width: 25%;
+    }
+    .inicio a{
+        font-size: 12px;
+    }
 }
