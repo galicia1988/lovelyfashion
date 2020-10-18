@@ -69,6 +69,7 @@ a{
     width: 200%;
     height: 60vh;
     background: rgb(210, 180, 238);
+    border-radius: 20px;
     position: absolute;
     top: auto;
     left: 0;
@@ -87,6 +88,7 @@ a{
     width: 200%;
     height: 60vh;
     background: rgb(210, 180, 238);
+    border-radius: 20px;
     position: absolute;
     top: auto;
     right: 0;
