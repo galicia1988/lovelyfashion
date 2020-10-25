@@ -64,12 +64,13 @@ a{
     border: solid rgb(83, 81, 81);
     border-radius: 15px;
     font-size: 20px;
+    font-family: serif;
 }
 .nosotros02{
     width: 200%;
     height: 60vh;
-    background: rgb(213, 209, 216);
-    opacity: 0.5;
+    background: rgb(245, 232, 245);
+    opacity: 1;
     border-radius: 20px;
     position: absolute;
     top: auto;
@@ -80,9 +81,17 @@ a{
 .nos-info{
     width: 100%;
     height: 100%;
-    padding: 5% 5%;
+    padding: 20% 5%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.nos-info h3{
+    text-align: center;
+}
+.nos-info h5{
+    text-align: center;
 }
 .btn-nosotros{
     background: none;
@@ -91,12 +100,14 @@ a{
     border: none;
     text-align: center;
     cursor: pointer;
+    font-size: 20px;
+    font-family: serif;
 }
 .contactanos02{
     width: 200%;
     height: 60vh;
-    background: rgb(41, 6, 77);
-    opacity: 0.5;
+    background: rgb(245, 232, 245);
+    opacity: 1;
     border-radius: 20px;
     position: absolute;
     top: auto;
@@ -308,6 +319,9 @@ a{
     .sub-menu{
         font-size: 20px;
     }
+    .btn-nosotros{
+        font-size: 20px;
+    }
     .contenido{
         width: 100%;
     }
@@ -327,6 +341,9 @@ a{
         padding: 0 5%;
     }
     .sub-menu{
+        font-size: 15px;
+    }
+    .btn-nosotros{
         font-size: 15px;
     }
     .contenido{
@@ -355,6 +372,9 @@ a{
         width: 24%;
     }
     .sub-menu{
+        font-size: 12px;
+    }
+    .btn-nosotros{
         font-size: 12px;
     }
     .nav-menu li ul li a{
@@ -409,8 +429,20 @@ a{
         .sub-menu{
             font-size: 10px;
         }
+        .btn-nosotros{
+            font-size: 10px;
+        }
         .nav-menu li ul li a{
             font-size: 10px;
+        }
+        .nosotros02{
+            width: 250%;
+        }
+        .nos-info h3{
+            font-size: 15px;
+        }
+        .contactanos02{
+            width: 250%;
         }
         .articulo{
             height: 25%;
@@ -440,8 +472,17 @@ a{
         .sub-menu{
             font-size: 8px;
         }
+        .btn-nosotros{
+            font-size: 8px;
+        }
         .nav-menu li ul li a{
             font-size: 8px;
+        }
+        .nosotros02{
+            width: 300%;
+        }
+        .contactanos02{
+            width: 300%;
         }
         .articulo{
             height: 20%;
