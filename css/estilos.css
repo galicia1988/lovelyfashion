@@ -374,8 +374,14 @@ a{
     .sub-menu{
         font-size: 12px;
     }
+    .nosotros02{
+        width: 260%;
+    }
     .btn-nosotros{
         font-size: 12px;
+    }
+    .contactanos02{
+        width: 260%;
     }
     .nav-menu li ul li a{
         font-size: 12px;
@@ -436,13 +442,13 @@ a{
             font-size: 10px;
         }
         .nosotros02{
-            width: 250%;
+            width: 275%;
         }
         .nos-info h3{
             font-size: 15px;
         }
         .contactanos02{
-            width: 250%;
+            width: 275%;
         }
         .articulo{
             height: 25%;
