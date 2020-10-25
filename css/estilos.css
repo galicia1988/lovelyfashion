@@ -291,7 +291,7 @@ a{
 }
 .redes .redes-pie{
     width: 20%;
-    height: 100%;
+    height: 100%; 
 }
 .redes .redes-pie:hover{
     opacity: 0.4;
@@ -306,6 +306,15 @@ a{
     width: 50%;
     height: 100%;
     margin: 0 auto;
+}
+.pie-direccion{
+    width: 50%;
+    height: 25%;
+    margin: 0 auto;
+}
+.pie-direccion iframe{
+    width: 100%;
+    height: 100%;
 }
 
 /*----------------adaptable a moviles------------------------------------------*/
