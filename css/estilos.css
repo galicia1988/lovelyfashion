@@ -93,6 +93,18 @@ a{
 .nos-info h5{
     text-align: center;
 }
+.nos-info a{
+    text-decoration: none;
+    text-align: center;
+    background: cornflowerblue;
+    color: black;
+    width: 25%;
+    height: 10%;
+    border-radius: 10px;
+}
+.nos-info p{
+    text-align: center;
+}
 .btn-nosotros{
     background: none;
     width: 100%;
@@ -385,12 +397,14 @@ a{
     }
     .nosotros02{
         width: 260%;
+        height: 40vh;
     }
     .btn-nosotros{
         font-size: 12px;
     }
     .contactanos02{
         width: 260%;
+        height: 40vh;
     }
     .nav-menu li ul li a{
         font-size: 12px;
