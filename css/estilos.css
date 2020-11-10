@@ -206,15 +206,16 @@ a{
 .articulo-parrafo{
     width: 100%;
     height: 100%;
-    padding: 0 5%;
+    padding: 10%;
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .articulo-parrafo h2{
     font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .envios{
     width: 25vh;
